@@ -1,0 +1,22 @@
+{{define "chats/home"}}
+	<div class="login-box" >
+		<div class="row">
+			<div class="span8 offset2">
+					<form action="/join" method="post" class="form-horizontal" >
+				    <fieldset>
+				      <legend>输入你的Email加入到聊天室</legend>
+				      <div class="control-group">
+				        <label class="control-label" for="input01">Email</label>
+				        <div class="controls">
+				          <input type="text" class="input-xlarge" id="input01" name="email" placeholder="请输入Email" value="">
+				        </div>
+				      </div>
+				      <div class="form-actions">
+				        <button type="submit" class="btn btn-primary">进入</button>
+				      </div>
+				    </fieldset>
+				  </form>
+			</div>
+		</div>
+	</div>
+{{end}}
